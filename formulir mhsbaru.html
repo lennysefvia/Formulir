@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir pendaftaran Mahaiswa Baru </title>
+	<style>
+		.konten{ 
+		width: 900px;
+		margin: auto;
+		border:1px solid black;
+		 }
+		.satu{ 
+		
+		margin:10px;
+		width: 200px;
+		height: 200px;
+		text-align: center;
+		}
+		.dua{
+			display: flex;
+		justify-content: center;
+		align-items: center;
+			margin:10px;
+			width: 150px;
+			height: 200px;
+			border:1px solid black;
+		}
+		.tiga{
+			margin:10px;
+		width: 200px;
+		height: 200px;
+		text-align: center;
+
+		}
+		.kotak {
+		display:flex;
+		width: 100%;
+		height: 400px;
+		justify-content: space-between;
+		align-content: space-around;
+		border-bottom: 2px dashed;
+
+		
+		}
+		table { margin : 50px auto 20px;  width: 800px; font-size: 17; }
+
+	</style>
+</head>
+<body>
+	<div class="konten">
+	<div style="text-align: center; display: flex; padding-left: 200px ;">
+		<img src="LOGO STMIK.png" style="width: 100px;">
+		<h1><u>STMIK LOMBOK</u></h1>
+	</div>
+	<br>
+	<hr>
+	<div style="text-align: center;">
+	<h2>FORMULIR PENDAFTARAN MAHASISWA BARU</h2>
+	<h2>TAHUN AKADEMIK 2018/2019</h2>
+	</div>
+
+	<form>
+		<div style=" margin-left: 200px;">
+		<label for="nomor">A. NOMOR PENDAFTARAN :</label>
+		<input type="text" id="nomor"> <br><br> 
+		<label>  PILIHAN KELAS  :</label>
+		<input type="radio" name="kelas" id="reguler"><label for="reguler">Reguler</label>
+		<input type="radio" name="kelas" id="ekstensi"><label for="ekstensi">Ekstensi</label>
+		<input type="radio" name="kelas" id="konversi"><label for="konversi">Konversi</label>
+		<input type="radio" name="kelas" id="transfer"><label for="transfer">Transfer</label>
+		<br><br>
+		<b> B. DATA CALON MAHASISWA</b>
+		<br><br>
+		<label for="nama"> 1. Nama Lengkap :</label>
+		<input type="text" id="nama"> <br><br> 
+		<label for="ttl"> 2. Tempat/Tgl Lahir :</label>
+		<input type="text" id="ttl"> <br><br>
+		<label> 3. Jenis Kelamin :</label> 
+		 <input type="radio" name="jeniskelamin" id="laki"><label for="laki">Laki-Laki</label>
+	 	<input type="radio" name="jeniskelamin" id="wanita"><label for="wanita">Wanita</label>
+	<br><br>
+	<label for="alamat"> 4. Alamat  :</label>
+		<input type="text" id="alamat"> <br><br>
+		<label for="rt">RT/RW :</label>
+		<input type="text" id="rt"><br><br>
+		<label for="kota">Kota /Kabupaten :</label>
+		<input type="text" id="kota"> 
+		<label for="provinsi">Provinsi  :</label>
+		<input type="text" id="provinsi"> 
+		<label for="kodepos">Kode Pos  :</label>
+		<input type="text" id="kodepos"><br><br>
+		<label for="hp">Hp/Email:</label>
+		<input type="text" id="hp"><input type="text" id="hp"> <br><br>
+		 <label for="asalsekolah"> 5. Asal Sekolah  :</label>
+		<input type="text" id="asalsekolah"><br><br>
+		 <label for="alamatsekolah"> 6. Alamat Sekolah :</label>
+		<input type="text" id="alamatsekolah"><br><br>
+		<label>  Jurusan  :</label>
+		<input type="radio" name="jurusan" id="ips"><label for="ips">IPS</label>
+		<input type="radio" name="jurusan" id="ipa"><label for="ipa">IPA</label>
+		<input type="radio" name="jurusan" id="bahasa"><label for="bahasa">Bahasa</label>
+		<input type="radio" name="jurusan" id="lain"><label for="lain">Lainnya</label>
+		 <label for="lain"> Lainnya :</label>
+		<input type="text" id="lain">
+		<br><br>
+		 <label for="nisn"> NISN :</label>
+		<input type="text" id="nisn">
+		<br><br>
+		 <label for="noijazah"> Nomor Ijazah :</label>
+		<input type="text" id="noijazah">
+		<br><br>
+		 <label for="tglijazah"> Tanggal Ijazah :</label>
+		<input type="text" id="tglijazah">
+		<br><br>
+		 <label for="nilai"> Nilai UN :</label>
+		<input type="text" id="nilai">
+		<br><br>
+			<b> B. DATA ORANG TUA</b><br><br>
+		<label for="namaayah"> Nama Ayah :</label>
+		<input type="text" id="namaayah">
+		<br><br>
+		<label for="pekerjaan"> Pekerjaan :</label>
+		<input type="text" id="pekerjaan">
+		<br><br>
+		<label>  Penghasilan Per Bulan  :</label>
+		<input type="radio" name="penghasilan" id="1juta"><label for="1juta"> <1 Juta </label>
+		<input type="radio" name="penghasilan" id="1-2juta"><label for="1-2juta"> 1-2 Juta</label>
+		<input type="radio" name="penghasilan" id="2-5juta"><label for="2-5juta"> 2-5 Juta</label>
+		<input type="radio" name="penghasilan" id="5juta"><label for="5juta"> >5 Juta</label><br><br>
+		<label for="pendidikanayah"> Pendidikan Ayah :</label>
+		<input type="text" id="pendidikanayah">
+		<br><br>
+		<label for="namaibu">Nama Ibu :</label>
+		<input type="text" id="namaibu">
+		<br><br>
+		<label for="pekerjaanibu"> Pekerjaan Ibu :</label>
+		<input type="text" id="pekerjaanibu">
+		<br><br>
+		<label>  Penghasilan Per Bulan  :</label>
+		<input type="radio" name="penghasilan" id="1juta"><label for="1juta"> <1 Juta </label>
+		<input type="radio" name="penghasilan" id="1-2juta"><label for="1-2juta"> 1-2 Juta</label>
+		<input type="radio" name="penghasilan" id="2-5juta"><label for="2-5juta"> 2-5 Juta</label>
+		<input type="radio" name="penghasilan" id="5juta"><label for="5juta"> >5 Juta</label><br><br>
+		<label for="pendidikanibu"> Pendidikan Ibu :</label>
+		<input type="text" id="pendidikanibu">
+		<br><br>
+		
+
+		</div>
+
+	
+	</form>
+	<div class="kotak" >
+	<div class="satu"> Petugas  <br><br><br><br><br><br><br><br><br><br>Ttd  dan Nama Petugas</div>
+	<div class="dua"> Foto 3x4</div>
+	<div class="tiga">Praya,.......................2018 <br>Calon Mahasiswa  <br><br><br><br><br><br><br><br><br>Ttd dan Nama Terang
+	</div>
+	</div>
+	<div class="kotak2">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+
+	</div>
+
+	
+	<table border="1px" cellpadding= "20px" cellspacing="0">
+		
+		<tr>
+			
+			<td>Foto 3x4</td>
+			<td>
+				<form>  <label for="daftar"> No Pendaftaran :</label><input type="text" id="daftar">
+					</form><br>
+				Nama               : .......................................................<br><br>
+				Pilihan Kelas      :........................................................<br><br>
+				Asal Sekolah       :...........................................................<br><br>
+				Jurusan/Prodi      :Tarbiyah/Pendidikan Agama Islam <br>
+
+				</td>
+				<td> Petugas <br><br><br><br><br><br>(___________)</td>
+
+
+		</tr>
+
+
+
+	</table>
+
+
+
+</div>
+
+</body>
+</html>
